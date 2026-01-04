@@ -108,7 +108,8 @@
   --font-serif: var(--font-libre-baskerville), "Georgia", serif;
   /* Adding Gochi Hand font for the Race Day counter script text */
   --font-gochi: "Gochi Hand", cursive;
-  --font-oswald: var(--font-oswald); /* Using Oswald variable correctly */
+  --font-oswald: var(--font-oswald);
+  /* Using Oswald variable correctly */
 
   /* Adding custom fonts to theme */
   --font-brier: "Brier", sans-serif;
@@ -165,6 +166,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     /* Removendo overflow-x: hidden para permitir scroll horizontal controlado na masonry */
@@ -210,6 +212,7 @@
       opacity: 0;
       transform: scale(0.95);
     }
+
     to {
       opacity: 1;
       transform: scale(1);
